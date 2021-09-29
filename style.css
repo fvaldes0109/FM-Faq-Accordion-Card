@@ -54,4 +54,48 @@ body {
 
 #side {
     flex: 1;
+    margin: 50px 0;
+}
+
+h1 {
+    font-family: Kumbh-Sans-700;
+    font-size: 30px;
+}
+
+ul {
+    margin: 15px 0;
+}
+
+.ask {
+    font-family: Kumbh-Sans-400;
+    color: hsl(237, 12%, 33%);
+    font-size: 14px;
+}
+
+.ans {
+    display: none;
+    font-family: Kumbh-Sans-400;
+    color: hsl(240, 6%, 50%);
+    font-size: 12px;
+    padding: 10px 10px 0px 0;
+}
+
+li {
+    display: inline-block;
+    padding: 20px 20px 20px 0px;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    width: 400px;
+}
+
+li:hover p{
+    color: rgb(216, 150, 27);
+}
+
+.texts {
+    display: inline-block;
+    width: 380px;
+}
+
+.arrow {
+    float: right;
 }
