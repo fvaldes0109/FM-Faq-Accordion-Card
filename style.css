@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Kumbh-Sans-400;
+    src: url('./fonts/Kumbh-Sans/static/KumbhSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Kumbh-Sans-700;
+    src: url('./fonts/Kumbh-Sans/static/KumbhSans-Bold.ttf');
+}
+
+body {
+    background: -webkit-linear-gradient(top left, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+#card {
+    background-color: white;
+    width: 1000px;
+    height: 525px;
+    margin: 20px auto;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+#photos {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+
+#photo-bg {
+    position: absolute;
+    left: -115%;
+    top: -57%;
+}
+
+#photo-woman {
+    position: absolute;
+    left: -16%;
+    top: 15%;
+}
+
+#photo-box {
+    position: absolute;
+    left: -9.3%;
+    top: 40%;
+    z-index: 1;
+}
+
+#side {
+    flex: 1;
+}

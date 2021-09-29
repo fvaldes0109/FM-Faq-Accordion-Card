@@ -13,6 +13,7 @@
 
         <title>Frontend Mentor | FAQ Accordion Card</title>
 
+		<link rel="stylesheet" href="style.css">
         <style>
             .attribution {
                 font-size: 11px;
@@ -25,16 +26,16 @@
     </head>
     <body>
 		<main id="card">
+			<img id="photo-box" alt="Box photo" src="./images/illustration-box-desktop.svg" />
 			<div id="photos">
 				<picture id="photo-bg">
 					<source media="(max-width: 375px)" srcset="./images/bg-pattern-mobile.svg" />
-					<img width="472" alt="BG Pattern" srcset="./images/bg-pattern-desktop.svg" />
+					<img alt="BG Pattern" srcset="./images/bg-pattern-desktop.svg" />
 				</picture>
-				<img id="photo-box" alt="Box photo" src="./images/illustration-box-desktop.svg" />
 				<picture id="photo-woman">
-
+					<source media="(max-width: 375px)" srcset="./images/illustration-woman-online-mobile.svg" />
+					<img alt="Woman online photo" src="./images/illustration-woman-online-desktop.svg" />
 				</picture>
-				<img alt="Woman online photo" src="./images/illustration-woman-online-desktop.svg" />
 			</div>
 			<div id="side">
 				<h1>FAQ</h1>
@@ -91,6 +92,7 @@
 					</li>
 				</ul>
 			</div>
+			<div class="stop"></div>
 		</main>
 		<footer>
 			<div class="attribution">
