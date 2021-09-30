@@ -60,6 +60,7 @@ body {
 h1 {
     font-family: Kumbh-Sans-700;
     font-size: 30px;
+    color: hsl(237, 12%, 33%);
 }
 
 ul {
@@ -98,4 +99,50 @@ li:hover p{
 
 .arrow {
     float: right;
+}
+
+@media(max-width: 375px) {
+    #photo-box{
+        display: none;
+    }
+
+    #card {
+        width: 90%;
+        margin: 120px auto;
+        display: block;
+    }
+
+    #photos {
+        overflow: visible;
+        width: 100%;
+        height: 20px;
+    }
+
+    #photo-woman {
+        left: 5%;
+        top: -110px;
+    }
+
+    #photo-bg {
+        top: 0%;
+        left: 13%;
+    }
+
+    #side {
+        margin: 120px 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    li {
+        width: auto;
+        padding: 15px 0;
+        margin: 0 5%;
+    }
+
+    .texts {
+        width: 280px;
+    }
 }
